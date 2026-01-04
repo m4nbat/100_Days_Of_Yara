@@ -3,7 +3,7 @@ meta:
     author = "m4nbat"
     description = "rule designed to match strings commonly associated with Cobalt Strike"
     status = "experimental"
-    date = "2024-04-30"
+    date = "2026-01-03"
 strings:
     $a = "StartW" 
     $b1 = "beacon.dll"  fullword        
