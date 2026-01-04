@@ -4,7 +4,7 @@ rule mal_strings_xwormRAT
         author = "m4nbat"
         description = "rule designed to match strings cvommonly associated with the XWorm RAT"
         status = "experimental"
-        date = "2024-04-30"
+        date = "2026-001-02"
         yarahub_author_twitter = "@knappresearchlb"
         yarahub_reference_md5 = "6b438a52d60887a534e6e38f72ededff"
         sha256 = "e761f2d9049734373c12c97aa557183081403e792b40028c410e4a6c0646c2b8"
