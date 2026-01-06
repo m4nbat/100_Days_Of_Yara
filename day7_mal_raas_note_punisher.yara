@@ -30,7 +30,7 @@ rule ransom_note_punisher_ransomware {
 
       uint16(0) == 0x4120 and
       filesize < 9KB and
-      all of $s* and
+      all of ($s*) and
       $tor
 }
 
