@@ -20,9 +20,9 @@ rule ransom_note_punisher_ransomware {
       $s5 = "This is a standard security measure to ensure data integrity and prevent unauthorized access." fullword ascii
       $s6 = "We strongly advise against attempting to use third-party decryption tools, as this may result in permanent data loss." fullword ascii
       $s7 = "Our encryption system is designed to be secure and cannot be bypassed by external tools." fullword ascii
-      $s7 = "1 - Download Tor browser from: https://www.torproject.org/download/" fullword ascii
-      $s8 = "2 - Visit one of our secure communication channels:" fullword ascii
-      $s9 = "3 - Use your unique ticket ID for authentication:" fullword ascii
+      $s8 = "1 - Download Tor browser from: https://www.torproject.org/download/" fullword ascii
+      $s9 = "2 - Visit one of our secure communication channels:" fullword ascii
+      $s10 = "3 - Use your unique ticket ID for authentication:" fullword ascii
       $tor = ".onion"
       //torfull = "$http://jh3zjsqgqk5woyuls7dxgdtorcycjx3i3sgdqpwdbiizunb5vbmppiid.onion"
 
