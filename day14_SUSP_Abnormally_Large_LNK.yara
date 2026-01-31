@@ -11,7 +11,6 @@ rule SUSP_Abnormally_Large_LNK {
         yarahub_reference_md5 = "N/A" // Generic hunting rule
 
     condition:
-        // LNK Magic: 0x4C 0x00 0x00 0x00 and ClassID
         uint32(0) == 0x0000004C and 
         uint32(4) == 0x00021401 and
         // Anything over 100KB is highly suspicious for a shortcut
